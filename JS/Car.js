@@ -6,9 +6,10 @@ class Car{
         this.passenger;
     }
     printDataCar(){
-        console.table(this.driver)
-        console.log(this.driver.name);
-        console.log(this.driver.document);
+        console.table(this.driver);
+        console.log(this.license, this.brand, this.model)
+        // console.log(this.driver.name);
+        // console.log(this.driver.document);
     }
 }
 

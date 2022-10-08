@@ -6,5 +6,10 @@ class Account{
         this.email;
         this.password;
     }
+    printAccountDatils(){
+        console.group("Account");
+        console.table(this.name, this.document);
+        console.groupEnd("Account");
+    }
 }
 
